@@ -1,0 +1,57 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+
+    repositories {
+        google()
+        jcenter()
+
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.6.2'
+
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+
+
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+ext {
+    minSdkVersion = 17
+    targetSdkVersion = 25
+    compileSdkVersion = 27
+    COMPILE_SDK_VERSION = 28
+    MIN_SDK_VERSION = 16
+    TARGET_SDK_VERSION = 28
+    VERSION_CODE = 1
+    VERSION_NAME = "1.0.0"
+    ARTIFACT_GROUP = "com.starteam.base"
+
+    gsonVersion = '2.8.0'
+    glideVersion = '4.6.1'
+    eventbusVersion = '3.0.0'
+    supportVersion = '27.1.0'
+    rxJavaVersion = '2.1.5'
+    rxAndroidVersion = '2.0.1'
+    gsyVideoPlayerVersion = '6.0.2'
+    openSdkVersion = '5.1.6'
+    crashreportVersion = '3.1.0'
+    nativecrashreportVersion = '3.7.1'
+    aspectjrtVersion = '1.9.1'
+    walleVersion = '1.0.5'
+    loggerVersion = '1.15'
+    fastJsonVersion = '1.2.9'
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
