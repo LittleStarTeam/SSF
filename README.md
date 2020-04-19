@@ -7,9 +7,20 @@ SSF（Stable and Scalable Framework）是商业级稳定的、可扩展的基础
 
 因此，我们创建了LittleStarTeam，目标是希望能够为那些想要创业或者已经创业的团队出一份力。我们通过开源SSF这种方式提供可靠的技术支持，降低前期的开发成本。开源的方向包括不限于客户端，后续必定会往前端、小程序、后台等方向扩展沉淀。
 
- 
- 
- 
+
+### 贡献代码
+
+我们非常欢迎您向 LittleStarTeam SSF 系列提交Issue或Pull Request。由于Pull Request 会修改源代码，因此我们会对Pull Request谨慎处理。
+请注意以下问题：
+
+1、不要提交无意义的Pull Request
+2、尽量原子化的提交，提交记录有较为清晰的描述（如：改动了什么，修复了什么bug等）
+3、请您尽量保持SSF现有的Code Style，而不是根据个人喜好来提交（防止后续的库变得庞大之后，代码混乱）
+4、请您尽量按照SSF设计方向进行优化，增加额外功能，而不是来自于个人的突发奇想
+5、在提交Pull Request之前务必要进行完整的单元测试和功能性测试
+
+
+### Licensed
  
     Copyright (c) 2020 by LittleStarTeam, All rights reserved.
 
