@@ -20,9 +20,6 @@ import java.nio.channels.FileChannel;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-/**
- * Created by KevinHo on 2016/8/12 0012.
- */
 public enum FileUtils {
 
     INSTANCE;

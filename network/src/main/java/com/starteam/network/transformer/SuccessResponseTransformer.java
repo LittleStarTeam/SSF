@@ -14,10 +14,6 @@ import io.reactivex.FlowableTransformer;
 import io.reactivex.annotations.NonNull;
 import io.reactivex.functions.Function;
 
-/**
- * Created by winterhuang on 2017/7/24.
- */
-
 public class SuccessResponseTransformer<T> implements FlowableTransformer<T, T> {
 
     private IResponseHandler responseHandler;

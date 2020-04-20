@@ -12,10 +12,6 @@ import org.reactivestreams.Publisher;
 import io.reactivex.Flowable;
 import io.reactivex.FlowableTransformer;
 import io.reactivex.functions.Function;
-
-/**
- * Created by bailong.Lai on 2019-08-27.
- */
 public class JSONTransform<T> implements FlowableTransformer<JSONObject, T> {
     private Class<T> tClass;
 

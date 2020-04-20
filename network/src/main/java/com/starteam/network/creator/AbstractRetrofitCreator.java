@@ -1,11 +1,11 @@
 package com.starteam.network.creator;
 
-import com.ea.net.interceptor.DownloadProgressInterceptor;
-import com.ea.net.interceptor.UpLoadProgressInterceptor;
-import com.ea.net.response.GsonConverterFixStringFactory;
-import com.ea.net.response.IResponse;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.starteam.network.interceptor.DownloadProgressInterceptor;
+import com.starteam.network.interceptor.UpLoadProgressInterceptor;
+import com.starteam.network.response.GsonConverterFixStringFactory;
+import com.starteam.network.response.IResponse;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -16,8 +16,6 @@ import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
- * <p>Created by gizthon on 2018/3/21. email:2013mzhou@gmail.com</p>
- * <p>
  * des: T 表示默认的ApiInterface
  */
 public abstract class AbstractRetrofitCreator<T> {

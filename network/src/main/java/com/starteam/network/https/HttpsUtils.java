@@ -2,7 +2,8 @@ package com.starteam.network.https;
 
 import android.content.Context;
 
-import com.ea.net.utils.AppInstanceUtils;
+
+import com.starteam.network.utils.AppInstanceUtils;
 
 import java.io.BufferedInputStream;
 import java.io.IOException;

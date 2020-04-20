@@ -4,11 +4,6 @@ import android.app.Application;
 import android.text.TextUtils;
 import android.widget.Toast;
 
-/**
- * <p>Created by gizthon on 2017/7/21. email:2013mzhou@gmail.com</p>
- * <p>
- * des:
- */
 public class ToastUtils {
     private ToastUtils() {
     }

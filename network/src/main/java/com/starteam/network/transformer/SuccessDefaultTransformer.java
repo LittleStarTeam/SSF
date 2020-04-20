@@ -16,9 +16,6 @@ import io.reactivex.annotations.NonNull;
 import io.reactivex.functions.Function;
 
 /**
- * Created by winterhuang on 2017/7/24.
- * <p>
- * <p>
  * 成功判断处理 默认 Transformer ，主要处理是否符合业务逻辑成功
  */
 

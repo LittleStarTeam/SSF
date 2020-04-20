@@ -1,13 +1,15 @@
 package com.starteam.network.creator;
 
-import com.ea.net.https.BksInfo;
-import com.ea.net.https.HTTPSTrustManager;
-import com.ea.net.https.HttpsUtils;
-import com.ea.net.interceptor.DownloadProgressInterceptor;
-import com.ea.net.interceptor.HeaderInterceptor;
-import com.ea.net.interceptor.HttpLoggingInterceptor;
-import com.ea.net.interceptor.UpLoadProgressInterceptor;
-import com.ea.net.utils.AppInstanceUtils;
+
+
+import com.starteam.network.https.BksInfo;
+import com.starteam.network.https.HTTPSTrustManager;
+import com.starteam.network.https.HttpsUtils;
+import com.starteam.network.interceptor.DownloadProgressInterceptor;
+import com.starteam.network.interceptor.HeaderInterceptor;
+import com.starteam.network.interceptor.HttpLoggingInterceptor;
+import com.starteam.network.interceptor.UpLoadProgressInterceptor;
+import com.starteam.network.utils.AppInstanceUtils;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
@@ -15,11 +17,7 @@ import java.util.concurrent.TimeUnit;
 import okhttp3.Cache;
 import okhttp3.OkHttpClient;
 
-/**
- * <p>Created by gizthon on 2018/7/9. email:2013mzhou@gmail.com</p>
- * <p>
- * des:
- */
+
 public class AbstractRetrofitBuilderImpl implements AbstractRetrofitBuilder {
 
     //需要缓存httpclient，调用的过程中是一次性的。默认为true,设置的时候调用前设置为false，调用完之后又会变成true

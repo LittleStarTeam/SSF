@@ -2,9 +2,7 @@ package com.starteam.network.https;
 
 import java.io.InputStream;
 
-/**
- * Created by KevinHo on 2016/5/29 0029.
- */
+
 public class BksInfo {
     InputStream bksInputStream;
     InputStream[] crtInputStream;

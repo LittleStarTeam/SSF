@@ -26,8 +26,6 @@ import okhttp3.MultipartBody;
 import okhttp3.RequestBody;
 
 /**
- * <p>Created by gizthon on 2017/7/21. email:2013mzhou@gmail.com</p>
- * <p>
  * des: 文件body封装
  */
 public class MultipartUtils {

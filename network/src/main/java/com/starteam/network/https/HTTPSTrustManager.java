@@ -13,7 +13,6 @@ import javax.net.ssl.X509TrustManager;
 
 /**
  * HTTPS请求绕过
- * @author Ammy
  *
  */
 public class HTTPSTrustManager implements X509TrustManager {

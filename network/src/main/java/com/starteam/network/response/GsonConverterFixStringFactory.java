@@ -20,12 +20,6 @@ import okio.Buffer;
 import retrofit2.Converter;
 import retrofit2.Retrofit;
 
-/**
- * <p>Created by gizthon on 16/12/18. email:2013mzhou@gmail.com</p>
- * <p>
- * des:
- */
-
 public final class GsonConverterFixStringFactory extends Converter.Factory {
     private final Gson gson;
     private final Class<? extends IResponse> cls;

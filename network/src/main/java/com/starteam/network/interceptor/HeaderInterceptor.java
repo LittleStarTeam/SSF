@@ -10,11 +10,6 @@ import okhttp3.Interceptor;
 import okhttp3.Request;
 import okhttp3.Response;
 
-/**
- * <p>Created by gizthon on 2017/7/21. email:2013mzhou@gmail.com</p>
- * <p>
- * des:
- */
 public class HeaderInterceptor implements Interceptor {
     @Override
     public Response intercept(Chain chain) throws IOException {

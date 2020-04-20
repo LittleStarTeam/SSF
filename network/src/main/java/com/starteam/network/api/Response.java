@@ -5,10 +5,6 @@ import com.starteam.network.response.IResponse;
 
 import org.json.JSONObject;
 
-/**
- * Created by winterhuang on 2017/7/25.
- */
-
 public class Response<T> implements IResponse<T> {
     public String msg = "系统繁忙,请稍后重试!";
     public int state = 0;

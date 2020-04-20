@@ -3,8 +3,6 @@ package com.starteam.network.utils;
 import java.util.List;
 
 /**
- * <p>Created by gizthon on 2018/3/8. email:2013mzhou@gmail.com</p>
- * <p>
  * des: 上传文件实体类
  */
 public class UploadFileEntity {

@@ -1,15 +1,13 @@
 package com.starteam.network.creator;
 
-import com.ea.net.interceptor.DownloadProgressInterceptor;
-import com.ea.net.interceptor.UpLoadProgressInterceptor;
+
+
+import com.starteam.network.interceptor.DownloadProgressInterceptor;
+import com.starteam.network.interceptor.UpLoadProgressInterceptor;
 
 import okhttp3.OkHttpClient;
 
-/**
- * <p>Created by gizthon on 2018/7/9. email:2013mzhou@gmail.com</p>
- * <p>
- * des:
- */
+
 public interface AbstractRetrofitBuilder {
 
     OkHttpClient.Builder getDefaultOkHttp(UpLoadProgressInterceptor.UploadListener uploadUploadListener, DownloadProgressInterceptor.DownloadProgressListener downloadProgressListener);

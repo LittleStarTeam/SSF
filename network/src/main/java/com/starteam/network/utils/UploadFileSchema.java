@@ -1,10 +1,8 @@
 package com.starteam.network.utils;
 
 /**
- * @author Created by dave on 2016/10/26 0026 15:02
  * @version V1.0
  * @function 图片上传返回类
- * @e-mail dailiang.zhou@foxmail.com
  */
 
 public class UploadFileSchema {

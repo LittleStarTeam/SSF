@@ -10,12 +10,6 @@ import javax.net.ssl.TrustManager;
 import javax.net.ssl.TrustManagerFactory;
 import javax.net.ssl.X509TrustManager;
 
-/**
- * Created by Winter on 2016/9/30.
- * Description
- * email:huang.wqing@qq.com
- */
-
 public class MyTrustManager implements X509TrustManager {
     private X509TrustManager defaultTrustManager;
     private X509TrustManager localTrustManager;

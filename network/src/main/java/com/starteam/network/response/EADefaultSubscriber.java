@@ -18,9 +18,6 @@ import io.reactivex.annotations.NonNull;
 import io.reactivex.subscribers.DefaultSubscriber;
 import retrofit2.HttpException;
 
-/**
- * Created by winterhuang on 2017/7/24.
- */
 
 public class EADefaultSubscriber<T> extends DefaultSubscriber<T> implements IResponseSubscribe{
     protected static final int ERROR_THROWABLE_NULL = -10000;//Throwable 为空

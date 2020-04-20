@@ -1,17 +1,17 @@
 package com.starteam.network.creator;
 
-import com.ea.net.https.BksInfo;
-import com.ea.net.https.HTTPSTrustManager;
-import com.ea.net.https.HttpsUtils;
-import com.ea.net.interceptor.DownloadProgressInterceptor;
-import com.ea.net.interceptor.HeaderInterceptor;
-import com.ea.net.interceptor.HttpLoggingInterceptor;
-import com.ea.net.interceptor.UpLoadProgressInterceptor;
-import com.ea.net.response.GsonConverterFixStringFactory;
-import com.ea.net.response.IResponse;
-import com.ea.net.utils.AppInstanceUtils;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.starteam.network.https.BksInfo;
+import com.starteam.network.https.HTTPSTrustManager;
+import com.starteam.network.https.HttpsUtils;
+import com.starteam.network.interceptor.DownloadProgressInterceptor;
+import com.starteam.network.interceptor.HeaderInterceptor;
+import com.starteam.network.interceptor.HttpLoggingInterceptor;
+import com.starteam.network.interceptor.UpLoadProgressInterceptor;
+import com.starteam.network.response.GsonConverterFixStringFactory;
+import com.starteam.network.response.IResponse;
+import com.starteam.network.utils.AppInstanceUtils;
 
 import java.io.File;
 import java.io.IOException;
@@ -23,11 +23,7 @@ import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-/**
- * <p>Created by gizthon on 2017/7/21. email:2013mzhou@gmail.com</p>
- * <p>
- * des:
- */
+
 public class ServiceGenerator {
 
     /**
